@@ -1,0 +1,40 @@
+{
+  "name": "msvjoiner.js",
+  "version": "1.0.2",
+  "description": "Msvjoiner.js",
+  "main": "msvjoiner.js",
+  "license": "MIT",
+  "author": {
+    "name": "Just-Msv"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "nodemon test/test.js"
+  },
+  "keywords": [
+    "msvjoiner",
+    "logger",
+    "log",
+    "npm-logger",
+    "node-logger",
+    "discord",
+    "discord-button",
+    "discord-buttons"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Just-Msv/msvjoiner.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Just-Msv/msvjoiner.js/issues"
+  },
+  "homepage": "https://github.com/Just-Msv/msvjoiner.js#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "discord.js": "^12.5.3",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.1"
+  }
+}
