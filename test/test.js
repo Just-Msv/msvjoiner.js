@@ -1,10 +1,10 @@
 const Discord = require("discord.js");
 let client = new Discord.Client();
 
-const Meska = require("../meska");
-console.log(Meska);
+const Msvjoiner = require("../msvjoiner");
+console.log(Msvjoiner);
 
-let Logger = new Meska.Logger();
+let Logger = new Msvjoiner.Logger();
 console.log(Logger);
 
 Logger.log("MSVJOINER.JS", "Test Message.", true);
